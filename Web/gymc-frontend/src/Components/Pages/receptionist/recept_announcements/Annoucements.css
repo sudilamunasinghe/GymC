@@ -1,0 +1,82 @@
+.recept-announcement-content-container{
+    display: flex;
+    flex-flow: wrap;
+    height: 80%;
+}
+.recept-announcement-form{
+    width:45%;
+    height: auto;
+
+}
+.recept-announcement-table{
+    width:100%;
+    height: auto;
+    
+
+}
+.recept-announcement-form h4{
+    margin-left: 20px;
+}
+.recept-announcement-table-card{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+.recept-announcement-content-container h1{
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: left;
+}
+.form-container{
+    padding-top: 20px;
+ 
+}
+.form-button{
+    background-color: #FF2121;
+    border-radius: 8px;
+    padding: 5px 30px 5px 30px;
+}
+@media screen and (max-width:800px){
+    .recept-announcement-form{
+        width:100%;
+    }
+    .recept-announcement-table{
+        width:100%;
+    }
+}
+
+
+/* .own-dashboard-chart-table-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(30, 255, 0);
+} */
+
+/* .own-annoucement-form-container {
+    margin: 10x;
+    padding: 5px;
+    width: 600px;
+    max-height: fit-content;
+    background-color: antiquewhite;
+}
+.own-annoucement-form-container label{
+    margin-top: 15px;
+}
+.own-annoucement-form-container textarea{
+    height: 130px;
+}
+.own-annoucement-form-container .form-button{
+    background: #FF2121 ;
+} */

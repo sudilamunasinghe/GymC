@@ -1,0 +1,157 @@
+.login-form-div {
+    background-color: #2C131A;
+}
+
+.login-form-container {
+    margin: 100px auto;
+    width: 1000px;
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login-form-in-container {
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 0px 60px;
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    color: black;
+    /* background-size: cover; */
+
+}
+
+.login-form-heading {
+    padding-top: 30px;
+    text-align: left;
+    text-decoration: solid;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.login-form-content-right {
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.login-form-img {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    border-radius: 0px 10px 10px 0px;
+    object-fit: cover;
+}
+
+.login-form-content-left {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+
+}
+
+.login-form-inputs {
+    text-align: left;
+    font-weight: 100px;
+}
+
+.form-row {
+    display: flex;
+    margin-top: 15px;
+}
+
+.form-col1 {
+    flex-direction: column;
+    flex: 50%;
+    /* margin-left: 10px; */
+}
+
+.form-col2 {
+    flex: 50%;
+    margin-left: 10px;
+
+}
+
+.login-btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-btn {
+
+    background-color: #2C131A;
+    color: #ffffff;
+    width: 100px;
+    margin-top: 10px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+}
+.login-btn:hover{
+    background-color: #4b3138;
+    transition: 0.5s;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2C131A;
+    border-radius: 0 10px 10px 0;
+}
+
+.login-form-content-right:hover .overlay {
+    opacity: 0.5;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+@media(max-width:1000px) {
+
+    .login-form-container {
+        width: 500px;
+        margin: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .login-form-in-container {
+        padding: 20px;
+        border-radius: 6px;
+    }
+
+    .login-form-content-right {
+
+        display: none;
+    }
+}
+
+@media(max-width:582px) {
+    .login-form-container {
+        width: 400px;
+    }
+}
+
+@media(max-width:440px) {
+    .login-form-container {
+        width: 300px;
+    }
+}

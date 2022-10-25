@@ -1,0 +1,133 @@
+.rec-analytics-card-container{
+    margin: 10px;
+    padding: 10px;
+}
+
+.rec-analytics-total-card{
+    padding: 20px;
+    margin: 10px 5px;
+    width: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+
+}
+
+.rec-analytics-card-title{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* .recept-analytics-titles {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 5px 0 5px 12px;
+    text-align: left;
+}
+
+
+
+.recept-analytics-chart-table-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 1px 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 7px;
+    border-radius: 10px;
+    margin-left: 2px;
+    
+}
+
+.recept-analytics-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+.cardx{
+    display: flex;
+    
+}
+
+.analytics-cards {
+    
+    
+    padding: 20px;
+    margin: 10px 5px;
+    width: 250px;
+    height: 120px;
+    background-color: #fff;
+}
+
+
+
+.recept-analytics-card-content .Count {
+    color: rgb(0, 0, 0);
+    font-size:20pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.recept-analytics-card-content .Name {
+    color: rgb(34, 33, 33);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.chart-cards,
+.table-cards {
+    padding: 20px;
+    margin: 10px 20px;
+    width: 910px;
+    height: inherit;
+}
+
+.recept-analytics-chart-container,
+.recept-analytics-table-container {
+    margin: 10x;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ .own-dashboard-container-head {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 50px 0 5px -10px;
+    text-align: left;
+} 
+.dropdown{
+    display:flex;
+    width: 21%;
+    margin-top: -2px;
+    margin-left: 2px;
+    border-radius: 10px;
+    
+    
+}
+ */

@@ -1,0 +1,236 @@
+.content-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.ex {
+  margin: auto;
+  width: 100%;
+  /* border: 3px solid #73AD21; */
+  /* padding-left: 100px; */
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.Hbutton {
+  grid-area: e2;
+}
+
+#heading {
+  grid-area: e1;
+}
+
+.Hbutton {
+  width: 150px;
+  background-color: #3DA2FF !important;
+  justify-items: right;
+}
+
+.Hbutton:hover {
+  background-color: #2869a7;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+
+#heading {
+  text-align: left;
+  font-size: 1rem !important;
+}
+
+.own-adjustment-card {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fff; */
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+  border-radius: 6px;
+  /* box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25); */
+  width: 100%;
+  padding: 20px;
+  /* margin: 20px; */
+}
+
+/* increment decrement */
+.main_div {
+  padding-top: 20px;
+
+}
+
+.center_div {
+  width: 25%;
+  height: 70px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+#count {
+  color: black;
+  background: transparent;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  border: none;
+
+  /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
+}
+
+.adjustment-input-group {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* button {
+min-height: 40px;
+background-color: #8566aa;
+color: #fff;
+border-radius: 5%;
+border: none;
+outline: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+margin-top: 30px;
+padding: 0 15px;
+cursor: pointer;
+display: flex;
+box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+background-color: #20bf6b;
+}
+.btn_div {
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.todo_style {
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+}
+} */
+
+
+#own-adjustment-titles {
+  font-size: 1.1rem;
+  font-weight: 600;
+  /* margin: 5px 0 5px 12px; */
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+
+  button {
+    min-height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5px;
+  }
+
+}
+
+/* NEW EXERCISE */
+.add-exercise-form-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #D9D9D9;
+}
+
+.add-exercise-form-container {
+  margin-top: auto;
+  max-width: 800px;
+  width: 680px;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  background-position: center;
+  color: black;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+.add-exercise-form-div .form-container .form-col1 .profile-cards {
+  padding: 20px;
+  margin: 10px 5px;
+  width: 180px;
+  height: 130px;
+}
+
+.add-exercise-form-subHeading {
+  margin-top: 40px;
+  font-weight: 520;
+  font-size: 20px;
+  color: #1F0106;
+}
+
+.add-exercise-form-subsubHeading {
+  margin-top: 15px;
+  font-weight: 520;
+  font-size: 16px;
+  color: #1F0106;
+}
+
+.add-exercise-form-inputs {
+  text-align: left;
+  font-weight: 100px;
+}
+
+
+.add-exercise-form-button {
+  background: #FF2121;
+  border-radius: 15px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 7px 25px 7px 25px;
+}
+
+.exercise-photo-card {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(184, 179, 179);
+}
+
+.add-step-link-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}

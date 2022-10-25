@@ -1,0 +1,86 @@
+.own-addworkout-content-container{
+    
+    display: flex;
+    flex-direction:column;
+    flex-flow: wrap;
+
+}
+.own-addworkout-profile{
+    width:100%;
+    height : 20vh;
+    margin-left: 50px;
+    
+}
+.own-addworkout-profile-pic{
+   margin-right: 480px;
+}
+.own-addworkout-profile-content h6{
+    font-weight: 700;
+    margin-left: -470px;
+}
+.own-addworkout-profile-content h5{
+    margin-left: 40px;
+}
+.addworkout_card1{
+    width: 99%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 5px;
+}
+.addworkout_card2{
+    width: 99%;
+    height: 39vh;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.addworkout_card3{
+    width: 99%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.update-workout-form-inputs {
+    text-align: left;
+    padding: 20px 20px 0px 20px;
+    
+}
+
+
+
+
+
+
+/* .otpp-card{
+    width: 98%;
+    height: 18vh;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 5px;
+   
+} */
+
+.own-addworkout-left{
+    width:50%;
+   
+}
+.own-addworkout-right{
+    width:50%;
+   
+}
+.reps-edit{
+    width: 15px;
+}
+@media screen and (max-width:800px){
+    .own-addworkout-left{
+        width: 100%;
+    }
+    .own-addworkout-right{
+        width: 100%;
+    }
+}

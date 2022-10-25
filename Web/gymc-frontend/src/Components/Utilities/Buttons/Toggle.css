@@ -1,0 +1,19 @@
+.toggle--button{
+  height: 30px;
+  width: 114px;
+  margin-top: 15%;
+  border: none;
+  font-size: 12px;
+  background-color: #32E04E;
+  color: white;
+  cursor: pointer;
+  
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.toggle--close{
+  background-color: #FF2121;
+}

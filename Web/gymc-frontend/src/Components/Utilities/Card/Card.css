@@ -1,0 +1,44 @@
+/* .Headr{
+    margin-bottom: 15px;
+}
+.Head{
+    display: flex;
+    gap: 750px;
+   
+    
+} */
+.prof{
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    display: grid;
+    /* overflow: hidden; */
+    padding: 15px;
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: 5px 10px 15px #CBCBCB; 
+    
+    /* margin-left: 800px; */
+    
+}
+.profileDetails{
+   padding: 5px;
+   text-align: left;
+    
+}
+#name{
+    font-size: 15px;
+    font-weight: bold;
+}
+#level{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+#Cheading{
+    /* font-weight: 500!important; */
+    font-size: 23px!important;
+}
+#cardP{
+    color: black;
+}

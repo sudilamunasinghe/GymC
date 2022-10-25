@@ -1,0 +1,97 @@
+.rec-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.rec-modal-container {
+    background-color: white;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    position: fixed;
+    left: 35%;
+    top: 35%;
+    padding: 8px;
+}
+
+.rec-modal-title {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 55px;
+    margin: 20px;
+}
+
+.rec-modal-closebtn {
+    background-color: white !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    border-color: black !important;
+    color: black !important;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.rec-modal-closebtn:hover {
+    background-color: #ff2121 !important;
+    color: white !important;
+    border-color: #ff2121 !important;
+}
+
+.rec-modal-btn {
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin: 40px;
+}
+
+.rec-cancelbtn {
+    background-color: #989090 !important;
+    border-color: #989090 !important;
+}
+
+.rec-cancelbtn:hover {
+    background-color: #757575 !important;
+
+}
+
+.rec-removebtn {
+    background-color: #ff2121 !important;
+    border-color: #ff2121 !important;
+}
+
+.rec-removebtn:hover {
+    background-color: #df0000 !important;
+}
+
+.rec-holdbtn {
+    background-color: #ebee29 !important;
+    border-color: #ebee29 !important;
+}
+
+.rec-holdbtn:hover {
+    background-color: #cbce24 !important;
+}
+
+.rec-activebtn {
+    background-color: #3DA2FF !important;
+    border-color: #3DA2FF !important;
+}
+
+.rec-activebtn:hover {
+    background-color: #80bdf7 !important;
+}
+
+
+.delete-model-btn-container,
+.hold-model-btn-container,
+.active-model-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}

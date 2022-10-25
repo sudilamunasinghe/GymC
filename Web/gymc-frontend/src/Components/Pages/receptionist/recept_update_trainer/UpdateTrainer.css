@@ -1,0 +1,28 @@
+.update-button {
+    background-color: #32E04E;
+    color: #ffffff;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+  }
+  .update-cancel-button {
+    background-color: #929c94;
+    color: #ffffff;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+  }
+  .update-cancel-button:hover{
+    background-color: #b5bdb6;
+    transition: 0.5s;
+  }
+  .update-button:hover{
+    background-color: #7cf18f;
+    transition: 0.5s;
+  }
+  

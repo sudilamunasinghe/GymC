@@ -1,0 +1,233 @@
+/*.rec-dashboard-card{
+    width: 215px;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+
+}
+.rec-trainerstoday-card{
+    width: 450px;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    text-align: center;
+}
+
+.rec-alt-card{
+    height: fit-content;
+    padding: 1%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+*/
+.rec-dashboard-pic-card{
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    margin: 15px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.45);
+}
+
+.rec-card-subtitle{
+    padding-top: 10px;
+}
+/*
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    color: white;
+    line-height: 1.33;
+    background-color: #ff2121;
+}
+
+.rec-dashboard-content-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 0.5%;
+}
+
+.rec-table-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px 20px;
+    margin: 10px 5px;
+    width: 100%;
+    height: inherit;
+    
+}
+*/
+.rec-split-left{
+    width: 20%;
+    float: left;
+}
+
+.rec-split-right{
+    margin: 10px;
+    width: 60%;
+    float: right;
+}
+/*
+.rec-content-container::after{
+    display: table;
+    clear: both;
+}*/
+
+.rec-dashboard-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 700px;
+    height: auto;
+    padding: 10px 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+
+.rec-dashboard-card1 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    
+}
+
+.rec-dashboard-card2 {
+    background-color: #fff;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    
+}
+
+.rec-dashboard-cards {
+    padding: 20px;
+    margin: 10px 5px;
+    width: 180px;
+    height: 120px;
+}
+
+.rec-dashboard-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px!important;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    width: 600px;
+}
+.rec-dashboard-container-head {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 5px 0 5px -10px;
+    text-align: left;
+}
+/*
+.rec-dashboard-chart-table-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    align-items: center;
+}*/
+.rec-dashboard-card-content .rec-dashboard-card-title {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rec-dashboard-card-content .rec-dashboard-card-text {
+    font-size: 1 rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.rec-dashboard-chart-container,
+.rec-dashboard-table-container {
+    margin: 10px;
+    padding: 5px;
+   
+}
+
+.rec-dashboard-trainers-card{
+    padding: 20px;
+    width: 400px;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rec-dashboard-table-cards {
+    padding: 20px;
+    margin: 10px 5px;
+    width: fit-content;
+    height: inherit;
+}
+
+.rec-dashboard-profile-cards {
+    padding: 20px;
+    margin: 10px 5px;
+    width: 210px;
+    height: 180px;
+}
+
+.rec-dashboard-card-img-container {
+    margin: 5px;
+}
+
+.recept-dashboard-images{
+    width:70px;
+    border-radius:30px;
+}
+
+.rec-dashboard-card-content .rec-dash-staffID {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rec-dashboard-card-content .rec-dash-staffName {
+    color: rgb(126, 126, 126);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+}

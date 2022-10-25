@@ -1,0 +1,16 @@
+.systemLog {
+    margin-top: 10px;
+    background-color: white;
+    height: 600px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 200px;
+    margin: 10px;
+}
+
+.downloadButton {
+    padding-top: 20px;
+}

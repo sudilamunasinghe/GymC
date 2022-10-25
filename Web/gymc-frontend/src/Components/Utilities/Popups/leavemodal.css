@@ -1,0 +1,102 @@
+.rec-check-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.rec-leave-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    height: fit-content;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    text-align: center;
+}
+
+.rec-cmodal-closebtn {
+    background-color: white !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    border-color: black !important;
+    color: black !important;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.rec-check-title {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.rec-check-form {
+    width: 500px;
+    padding: 20px;
+}
+
+.rec-leave-input {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rec-modal-btn {
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+}
+
+.rec-cancelbtn {
+    background-color: #989090 !important;
+    border-color: #989090 !important;
+}
+
+.rec-cancelbtn:hover {
+    background-color: #757575 !important;
+
+}
+
+.rec-confirmbtn {
+    background-color: #32E04E !important;
+    border-color: #32E04E !important;
+}
+
+.rec-confirmbtn:hover {
+    background-color: #32ff4E !important;
+
+}
+
+.rec-leave-body {
+    padding: 20px;
+}
+
+.rec-leave-header {
+    height: 40px;
+    text-align: center;
+}
+
+.rec-leave-title {
+    height: 30px;
+}
+
+.last-line {
+    padding-bottom: 20px;
+}
+
+.rec-payment-incrbtn{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.rec-payment-incrbtn:focus{
+    background-color: grey;
+    font-weight: bold;
+}

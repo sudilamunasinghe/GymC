@@ -1,0 +1,219 @@
+/* .workout-container{
+    width: 100vm;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    grid-template-rows: 1fr 1fr 3fr;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.workout-button-card{
+    grid-column-start: 2;
+    
+} */
+.workout-button-card button{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.calender_title{
+  font-weight: 700;
+  text-align: left;
+  margin-left: 14px;
+}
+
+
+
+
+/* .workout-calendar-card{
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    justify-content: center;
+    padding-left: 50px;
+} */
+.trainee-basic-details-card{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 3;
+}
+.trainee-workout-schedule-view-card{
+    grid-row-start: 3;
+    grid-column-end: span 2;
+}
+.trainee-workout-basic-details-container{
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+    display: grid;
+    
+}
+
+
+
+
+
+
+
+.own-trainee-content-container{
+    
+    display: flex;
+    flex-direction:column;
+    flex-flow: wrap;
+
+}
+.own-trainee-profile{
+    width:100%;
+    height : 20vh;
+    display: flex;
+}
+
+.own-trainee-form{
+    width:100%;
+    height : 85vh;
+    margin-top: 50px;
+   
+
+
+}
+.own-trainee-calender{
+    width:100%;
+    height : 40vh;
+  
+}
+
+.own-trainee-table{
+    width:100%;
+    height : 45;
+    margin-top: 185px;
+   
+}
+.left{
+    width:35%;
+}
+.right{
+    width:65%;
+}
+.newworkoutbtn {
+    background-color: #FF2121;
+    border: none;
+    color: #000;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 10vw;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    margin-left: 130px;
+    margin-top: 5px;
+    
+
+  }
+  .newworkoutbtn:hover{
+    background-color: #c25c5c;
+  }
+  .progressbtn{
+    background-color: #3DA2FF;
+    border: none;
+    color: #000;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 10vw;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    margin-left: 130px;
+    margin-top: 20px;
+    
+  }
+  .progressbtn:hover{
+    background-color: #7bb4e9;
+  }
+  .update_btn{
+    background-color: #32E04E;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 80%;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+  .update_btn:hover{
+    background-color: #78aee0;
+  }
+  .view_workout_form-inputs{
+    width: 98%;
+    height: 100%;
+    text-align: left;
+    padding: 30px 0;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+  }
+  .f-content{
+    padding: 20px 60px 20px 60px;
+  }
+  .t-content{
+    width: 98%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 15px;
+  }
+  /* .own-dashboard-card-profile-cards{
+    mask-type: -40px;
+  } */
+  .tid{
+    font-size: 8pt;
+    font-weight: bolder;
+  }
+  .tname{
+    font-weight: 600;
+  }
+  .own-viewworkout-calender{
+    width: 32vw;
+    height: 55vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding-left: 43px;
+    padding-top: 30px;
+    padding-bottom: 360px;
+   
+
+  }
+  .own-viewworkout-calender-card{
+    width: auto;
+    height: 80%;
+   
+  }
+  .dietworkout_tab{
+    margin-left: 20px;
+    
+  }
+@media screen and (max-width:800px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}

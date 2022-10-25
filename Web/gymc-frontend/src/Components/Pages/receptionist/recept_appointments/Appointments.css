@@ -1,0 +1,31 @@
+.filter-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputFields-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.searchbar-container,
+.dropdown-container {
+    width: 300px;
+}
+
+.form-label-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-label {
+    font-weight: 800;
+}
+
+.button-container {
+    margin-top: 28px;
+    justify-content: right;
+}

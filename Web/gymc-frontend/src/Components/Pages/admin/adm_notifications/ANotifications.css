@@ -1,0 +1,81 @@
+.adm-notification-content-container{
+    margin-top: -35px;
+}
+.adm-text{
+    text-align: left;
+    font-weight: bolder;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.adm-noti-card-container{
+    width:100%;
+    height:auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding:20px 40px 30px 60px;
+    margin-bottom: 7px;
+    display: flex;
+    
+    
+}
+/* .card-container:hover{
+    background-color: #d6d0d2;
+    
+} */
+
+.notification-body{
+    width: 70%;
+    height: 12vh;
+
+}
+.adm-read-btn{
+    width: 25%;
+    height: 12vh;
+ 
+}
+.mark-as-read-btn {
+    background-color: #3DA2FF;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 18px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+   
+  }
+  .mark-as-read-btn:hover{
+    background-color: #2869a7;
+  }
+
+.adm-noti-title{
+    text-align: left;
+    font-size: 14px;
+    line-height: 0.2;
+    margin-top: 20px;
+   
+    
+
+}
+.adm-noti-body{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 0.4;
+    margin-top: 20px;
+
+}
+.adm-noti-time{
+    text-align: left;
+    font-size: 10px;
+    line-height: 0;
+    margin-top: 20px;
+
+}
+
+

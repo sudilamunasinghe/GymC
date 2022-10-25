@@ -1,0 +1,89 @@
+.own-dashboard-titles {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 5px 0 5px 12px;
+    text-align: left;
+}
+
+
+.own-dashboard-card-container,
+.own-dashboard-chart-table-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.own-dashboard-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+.own-dashboard-profile-cards {
+    padding: 20px;
+    margin: 10px 5px;
+    width: 210px;
+    height: 180px;
+}
+
+.own-dashboard-card-img-container {
+    margin: 5px;
+}
+
+.owner-dashboard-images {
+    width: 70px;
+    border-radius: 30px;
+}
+
+.own-dashboard-card-content .staffID {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.own-dashboard-card-content .staffName {
+    color: rgb(126, 126, 126);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.own-dashboard-chart-cards {
+    padding: 10px;
+    margin: 10px 5px;
+    width: 530px;
+    height: 480px;
+}
+
+.own-dashboard-table-cards {
+    padding: 30px;
+    margin: 10px 5px;
+    width: 550px;
+    height: 480px;
+}
+
+.own-dashboard-chart-container,
+.own-dashboard-table-container {
+    margin: 10x;
+    padding: 5px;
+}
+
+.own-dashboard-container-head {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 5px 0 5px -10px;
+    text-align: left;
+}

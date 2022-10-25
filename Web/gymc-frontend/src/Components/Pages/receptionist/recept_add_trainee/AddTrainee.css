@@ -1,0 +1,64 @@
+.add-trainer-form-container {
+  margin-top: auto;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 25px 60px;
+  border-radius: 10px;
+  background-position: center;
+  color: black;
+}
+
+.add-trainer-form-div {
+  margin-top: 50px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #D9D9D9;
+}
+
+.add-trainer-form-div .form-container .form-col1 .profile-cards {
+  padding: 20px;
+  margin: 10px 5px;
+  width: 180px;
+  height: 130px;
+}
+
+.form-subHeading {
+  margin-top: 40px;
+}
+
+.add-trainer-form-inputs {
+  text-align: left;
+  font-weight: 100px;
+}
+
+.add-tariner-userID {
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 5px;
+  /* justify-content: flex-start; */
+}
+
+.add-trainer-form-button {
+  background: rgb(61, 162, 255);
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 7px 25px 7px 25px;
+}
+
+.add-trainer-form-container label {
+  font-weight: 500;
+}
+
+.recept-add_trainer-profile-cards {
+  padding: 20px;
+  margin: 10px 5px;
+}
