@@ -40,7 +40,7 @@ public class Announcement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "announcementID")
-    private long announcementID;
+    private int announcementID;
 
     @Column(name = "Topic")
     private String topic;
@@ -67,7 +67,7 @@ public class Announcement {
         this.description = description;
     }
 
-    public void setAnnouncementID(long announcementID) {
+    public void setAnnouncementID(int announcementID) {
         this.announcementID = announcementID;
     }
 
@@ -87,7 +87,7 @@ public class Announcement {
         return description;
     }
 
-    public long getAnnouncementID() {
+    public int getAnnouncementID() {
         return announcementID;
     }
 
