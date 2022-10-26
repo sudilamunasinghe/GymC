@@ -2,8 +2,12 @@
 package com.example.gymcbackend.controllers;
 
 import com.example.gymcbackend.dto.AnnouncementDTO;
+import com.example.gymcbackend.entities.UserAccount;
 import com.example.gymcbackend.services.AnnouncementService;
+import com.example.gymcbackend.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,25 +21,44 @@ import java.util.List;
 public class AnnouncementController {
     @Autowired
     public AnnouncementService announcementService;
+
+    @Autowired
+    public UserService userService;
+
     @GetMapping("/getAnnouncements")
-    public List<AnnouncementDTO> getAnnouncement(){
+    public List<AnnouncementDTO> getAnnouncement() {
         return announcementService.getAllAnnouncements();
     }
+
     @PostMapping("/saveAnnouncement")
-    public AnnouncementDTO saveAnnouncement(@RequestBody AnnouncementDTO announcementDTO){
-        return announcementService.saveAnnouncement(announcementDTO);
+    public ResponseEntity<?> saveAnnouncement(@RequestBody AnnouncementDTO announcementDTO) {
+        if (userService.getUser().getUserLevel().equals("Admin")) {
+            return ResponseEntity.status(HttpStatus.OK).body(announcementService.saveAnnouncement(announcementDTO));
+        }
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Unauthorized");
     }
+
     @PutMapping("/updateAnnouncement")
-    public String updateAnnouncement(){
-        return "update announcement";
+    public ResponseEntity<?> updateAnnouncement(@RequestBody AnnouncementDTO announcementDTO) {
+        UserAccount user = userService.getUser();
+        if (user.getUserLevel().equals("Admin") || user.getUserLevel().equals("Receptionist")) {
+            announcementService.updateAnnouncement(announcementDTO);
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body("");
+        }
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Unauthorized");
     }
+
     @DeleteMapping("/deleteAnnouncement")
-    public String deleteAnnouncement(@RequestBody AnnouncementDTO announcementDTO){
-        return announcementService.deleteAnnouncement(announcementDTO);
+    public ResponseEntity<?> deleteAnnouncement(@RequestBody AnnouncementDTO announcementDTO) {
+        UserAccount user = userService.getUser();
+        if (user.getUserLevel().equals("Admin") || user.getUserLevel().equals("Receptionist")) {
+            announcementService.deleteAnnouncement(announcementDTO);
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body("");
+        }
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Unauthorized");
     }
 
 }
-
 
 
 //package com.example.gymcbackend.controllers;

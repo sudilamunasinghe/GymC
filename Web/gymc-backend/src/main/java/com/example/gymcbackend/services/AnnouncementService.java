@@ -7,11 +7,12 @@ import com.example.gymcbackend.entities.Announcement;
 import com.example.gymcbackend.repository.announcementDao.AnnouncementJdbcRepository;
 import com.example.gymcbackend.repository.announcementDao.AnnouncementRepository;
 import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.sql.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @Service
@@ -24,18 +25,27 @@ public class AnnouncementService {
 
     @Autowired
     private AnnouncementJdbcRepository announcementJdbcRepository;
-    public AnnouncementDTO saveAnnouncement(AnnouncementDTO announcementDTO){
-        announcementRepo.save(modelMapper.map(announcementDTO, Announcement.class));
+
+    public AnnouncementDTO saveAnnouncement(AnnouncementDTO announcementDTO) {
+        // set current date
+        announcementDTO.setDate(Date.valueOf(LocalDate.now()));
+        Announcement announcement = announcementRepo.save(modelMapper.map(announcementDTO, Announcement.class));
+        announcementDTO.setAnnouncementId(announcement.getAnnouncementID());
         return announcementDTO;
     }
 
-    public List<AnnouncementDTO> getAllAnnouncements(){
+    public List<AnnouncementDTO> getAllAnnouncements() {
         return announcementJdbcRepository.findAllAnnouncements();
     }
 
-    public String deleteAnnouncement(AnnouncementDTO announcementDTO){
-        announcementRepo.delete(modelMapper.map(announcementDTO,Announcement.class));
-        return "Succefully deleted....";
+    public String deleteAnnouncement(AnnouncementDTO announcementDTO) {
+        announcementRepo.delete(modelMapper.map(announcementDTO, Announcement.class));
+        return "Successfully deleted....";
+    }
+
+    public String updateAnnouncement(AnnouncementDTO announcementDTO) {
+        announcementRepo.save(modelMapper.map(announcementDTO, Announcement.class));
+        return "Successfully Updated....";
     }
 
 }
